@@ -1,0 +1,509 @@
+<!DOCTYPE html><html class="h-full" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#ffffff", "surface-tint": "#8c4964", "tertiary-container": "#c296a9", "secondary-container": "#f3d9e3", "surface-bright": "#fff8f5", "on-primary": "#ffffff", "secondary-fixed-dim": "#d9c0ca", "on-tertiary-fixed-variant": "#5f3c4d", "on-surface": "#1d1b1a", "surface-variant": "#e8e1de", "on-secondary-fixed": "#26171e", "inverse-primary": "#ffb0cc", "surface": "#fff8f5", "on-primary-fixed": "#3a0620", "tertiary-fixed": "#ffd8e7", "on-surface-variant": "#514347", "outline-variant": "#d6c1c7", "surface-container-lowest": "#ffffff", "surface-container-low": "#f9f2ef", "surface-container": "#f3ecea", "primary": "#8c4964", "error-container": "#ffdad6", "on-primary-container": "#5e243d", "on-tertiary": "#ffffff", "inverse-on-surface": "#f6efec", "outline": "#847377", "primary-container": "#d98ba8", "primary-fixed": "#ffd9e4", "primary-fixed-dim": "#ffb0cc", "on-tertiary-fixed": "#2e1221", "on-primary-fixed-variant": "#70324c", "on-secondary-container": "#715d66", "on-background": "#1d1b1a", "background": "#fff8f5", "on-secondary": "#ffffff", "surface-dim": "#dfd9d6", "on-secondary-fixed-variant": "#54424a", "surface-container-highest": "#e8e1de", "surface-container-high": "#ede7e4", "on-error-container": "#93000a", "tertiary-fixed-dim": "#e9bacd", "tertiary": "#795465", "inverse-surface": "#33302e", "secondary-fixed": "#f6dce6", "error": "#ba1a1a", "on-tertiary-container": "#4f2f3e", "secondary": "#6d5961" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.25rem", "margin": "3rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-md": "1rem" }, "fontFamily": { "headline-sm": ["EB Garamond"], "body-lg": ["Manrope"], "display": ["EB Garamond"], "headline-lg-mobile": ["EB Garamond"], "headline-md": ["EB Garamond"], "headline-lg": ["EB Garamond"], "label-sm": ["Manrope"], "display-mobile": ["EB Garamond"], "body-md": ["Manrope"], "body-sm": ["Manrope"], "label-md": ["Manrope"] }, "fontSize": { "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "500"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "display": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "headline-lg-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "400"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600"}], "display-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400"}], "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}], "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-2px_rgba(85,67,75,0.05)]"><div class="h-16 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Rasya Nova Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV2VlRfvbIdo9ZEEw4_gS0g78kfjuMVk12ZaamBdY4WyDPV81zk3nZtNGUm3_rTk-T2zbT_ghSGVY2JViD-0oJiYD-MH4oX08w9TzUcRX_YQT4TwaGplFKHg953TglBTh63-f-zxDQVP9x8tZu6Dep1BeNK2mknn_K_-oR72IjY97kidN5J_8w8jcG7iD1oUiIr-vapL-2rG3KikfHTsvH3fb-5Y6AsHr2QVeQKwm0"><div class="flex flex-col"><span class="font-headline-md text-headline-md leading-none text-on-surface tracking-tight">Rasya Nova</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Home</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Search specimen folios" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">filter_vintage</span></button><div class="pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB33X4vwSpJYx5Uf03zLRJHLy1A8a3W90nsHdDBp_0bFrHR4-ZGTUr7qJ_jD0ouZTXS10HNQ9_-YCf3jEMfpIkExDVmW46qmo_BfS8NJ2mnwlLwF1Ol31fWkQunzBSPnzJZ_ocMR1Bo9mhcGov1McH0FESBK8pRLvOwOGFbt3KXnL9fjyT-EqiFxiwuHqL8Ki2I2vM79n7F8YDKsWjc4mjLDBcwGBfWRB7EB0Sw2NpdIjty64r-DWS_w"></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen px-margin-mobile"><div class="flex flex-col w-full space-y-12">
+<!-- HERO SECTION -->
+<section class="relative flex flex-col items-center text-center pt-2" id="home">
+<!-- Ambient delicate glow -->
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 w-72 h-72 bg-secondary-container/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Welcome Pill -->
+<div class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-secondary-container/70 shadow-sm text-on-surface-variant font-label-md text-label-md tracking-wider uppercase mb-5">
+<span class="text-xs">🌸</span>
+<span>Welcome to My Space</span>
+</div>
+<!-- Profile Portrait Showcase with Floating Badges -->
+<div class="relative mb-6">
+<div class="w-44 h-44 rounded-full p-1.5 bg-gradient-to-tr from-primary-container via-secondary-container to-surface shadow-md">
+<img alt="Aesthetic soft portrait of Rasya Nova" class="w-full h-full object-cover rounded-full shadow-inner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB33X4vwSpJYx5Uf03zLRJHLy1A8a3W90nsHdDBp_0bFrHR4-ZGTUr7qJ_jD0ouZTXS10HNQ9_-YCf3jEMfpIkExDVmW46qmo_BfS8NJ2mnwlLwF1Ol31fWkQunzBSPnzJZ_ocMR1Bo9mhcGov1McH0FESBK8pRLvOwOGFbt3KXnL9fjyT-EqiFxiwuHqL8Ki2I2vM79n7F8YDKsWjc4mjLDBcwGBfWRB7EB0Sw2NpdIjty64r-DWS_w">
+</div>
+<!-- Floating Badge 1: Stethoscope / Calon Dokter -->
+<div class="absolute -bottom-1 -left-4 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">medical_services</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Calon Dokter Umum</span>
+</div>
+<!-- Floating Badge 2: Web Learner -->
+<div class="absolute -top-2 -right-3 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">terminal</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">💻 Web Learner</span>
+</div>
+</div>
+<!-- Headlines -->
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-medium tracking-tight mb-2">
+      Hello, I'm <span class="text-primary italic">Rasya Nova!</span>
+</h1>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant italic mb-4 max-w-xs">
+      A Student with Big Dreams and a Passion for Learning.
+    </p>
+<!-- Bio Description -->
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mb-6 px-2 leading-relaxed">
+      Saat ini saya sedang menempuh pendidikan di bangku SMA dan terus mengembangkan kemampuan dalam bidang teknologi, khususnya HTML dan CSS. Saya juga memiliki cita-cita untuk menjadi seorang dokter umum.
+    </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-3 w-full max-w-xs mb-8">
+<a class="w-full py-3 px-6 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider text-center shadow-md transition-all flex items-center justify-center gap-2" href="#portfolio">
+<span>Explore My Portfolio ♡</span>
+</a>
+<a class="w-full py-3 px-6 rounded-lg bg-surface-container-lowest hover:bg-secondary-container/40 text-on-surface-variant font-label-md text-label-md uppercase tracking-wider text-center shadow-sm transition-all flex items-center justify-center gap-1.5" href="#contact">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Let's Connect</span>
+</a>
+</div>
+<!-- Tagline Card -->
+<div class="w-full p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3 text-left">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface text-[17px] leading-snug">
+          “Dream Big, Learn More, and Bloom Beautifully.”
+        </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Every little step is part of a beautiful journey. ♡
+        </p>
+</div>
+</div>
+</section>
+<!-- ABOUT ME SECTION -->
+<section class="flex flex-col space-y-4" id="about-me">
+<!-- Section Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">local_florist</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">About Me</h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase">Profile &amp; Intro</span>
+</div>
+<!-- Editorial Narrative Box -->
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm space-y-3">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Halo! Saya <span class="font-semibold text-on-surface">Rasya Nova</span>, seorang pelajar SMA yang memiliki semangat untuk terus belajar dan berkembang. Saya tertarik pada dunia kesehatan dan teknologi. Melalui portofolio ini, saya ingin mendokumentasikan perjalanan belajar, kreativitas, serta pencapaian yang saya dapatkan.
+      </p>
+</div>
+<!-- Highlights Bento Grid -->
+<div class="grid grid-cols-2 gap-3">
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-[22px] mb-2" style="font-variation-settings: 'FILL' 1;">stethoscope</span>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase block">Peran Utama</span>
+<p class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-tight mt-0.5">Calon Dokter Umum</p>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] block mt-1">Aspiring GP</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-[22px] mb-2">school</span>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase block">Status Saat Ini</span>
+<p class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-tight mt-0.5">Pelajar SMA Aktif</p>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] block mt-1">Class of 2026</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-[22px] mb-2">code</span>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase block">Fokus Belajar</span>
+<p class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-tight mt-0.5">HTML &amp; CSS Web</p>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] block mt-1">Modern UI &amp; Styling</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-[22px] mb-2">palette</span>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase block">Hobi &amp; Minat</span>
+<p class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-tight mt-0.5">Kesehatan &amp; Desain</p>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] block mt-1">Medical Sci &amp; Graphics</span>
+</div>
+</div>
+</div>
+</section>
+<!-- MY DREAMS SECTION -->
+<section class="flex flex-col space-y-4" id="my-dreams">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">My Dreams</h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase">Cita-Cita &amp; Visi</span>
+</div>
+<!-- Core Dream Banner Card -->
+<div class="p-5 rounded-xl bg-gradient-to-br from-surface-container-lowest via-secondary-container/20 to-surface-container-lowest shadow-sm space-y-4">
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Aspirasi Masa Depan</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-0.5">Menjadi Dokter Umum yang Berdedikasi</h3>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Menggabungkan rasa empati yang mendalam dengan ketelitian sains biologis untuk menyembuhkan, merawat, dan memulihkan senyuman banyak insan.
+      </p>
+<!-- 4 Pillars List -->
+<div class="space-y-2.5 pt-2">
+<div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-surface-container-low/60">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface">Memiliki cita-cita menjadi dokter umum dengan dedikasi tulus.</p>
+</div>
+<div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-surface-container-low/60">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface">Tertarik mempelajari dunia kesehatan &amp; sains biologis secara komprehensif.</p>
+</div>
+<div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-surface-container-low/60">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface">Ingin membantu dan memberikan manfaat nyata bagi banyak orang di sekeliling.</p>
+</div>
+<div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-surface-container-low/60">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<p class="font-body-sm text-body-sm text-on-surface">Terus belajar dengan gigih untuk meraih masa depan yang diimpikan.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- MY SKILLS SECTION -->
+<section class="flex flex-col space-y-4" id="my-skills">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">chips</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">My Skills</h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase">Kemampuan</span>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm space-y-4">
+<!-- Skill 1: HTML5 -->
+<div class="space-y-1.5">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">html</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">HTML5</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Beginner • Building Structure</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 65%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Paham tag semantik, layout hirarki, form, tabel, dan heading.</p>
+</div>
+<!-- Skill 2: CSS3 -->
+<div class="space-y-1.5 pt-2">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">css</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">CSS3</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Beginner • Styling &amp; Layout</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 58%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Flexbox, pemilihan warna pastel estetis, Google Fonts, dan margin.</p>
+</div>
+<!-- Skill 3: Creativity -->
+<div class="space-y-1.5 pt-2">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">draw</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Creativity</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">High • Aesthetic Eye</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 88%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Desain harmonis, tata letak seimbang, dan palet warna feminin elegan.</p>
+</div>
+<!-- Skill 4: Communication -->
+<div class="space-y-1.5 pt-2">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">forum</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Communication</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Empathetic &amp; Clear</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 82%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Penyampaian gagasan yang teratur, santun, dan mudah dipahami.</p>
+</div>
+<!-- Skill 5: Teamwork -->
+<div class="space-y-1.5 pt-2">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">groups</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Teamwork</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Collaborative</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-secondary-fixed-dim rounded-full" style="width: 85%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Aktif berorganisasi dan mampu bersinergi dalam tugas tim sekolah.</p>
+</div>
+</div>
+</section>
+<!-- MY LEARNING JOURNEY (INTERACTIVE SLIDER) -->
+<section class="flex flex-col space-y-4" id="portfolio">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">My Learning</h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase">HTML &amp; CSS Projects</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+      Dokumentasi proyek latihan HTML &amp; CSS selama masa SMA:
+    </p>
+<!-- Carousel Container -->
+<div class="relative w-full overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm p-5">
+<!-- Carousel Track -->
+<div class="flex transition-transform duration-300 ease-out" id="project-carousel" style="transform: translateX(0%);">
+<!-- Slide 1 -->
+<div class="w-full shrink-0 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-surface-variant font-label-sm text-label-sm">Project 01 / 05</span>
+<div class="flex gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">HTML5</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">My First HTML Website</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+            Eksplorasi awal memahami struktur dasar tag HTML, heading &lt;h1&gt;–&lt;h6&gt;, paragraf, image embedding, dan hyperlink internal.
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span>Berhasil membangun layout web statis pertama tanpa error sintaks.</span>
+</div>
+</div>
+<!-- Slide 2 -->
+<div class="w-full shrink-0 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-surface-variant font-label-sm text-label-sm">Project 02 / 05</span>
+<div class="flex gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">CSS3</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Typography</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Learning CSS Styling</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+            Eksplorasi palet warna pastel, integrasi font Google Fonts yang anggun, penguasaan box-model (margin, border, padding).
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span>Menciptakan gaya visual estetik nan lembut dengan CSS murni.</span>
+</div>
+</div>
+<!-- Slide 3 -->
+<div class="w-full shrink-0 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-surface-variant font-label-sm text-label-sm">Project 03 / 05</span>
+<div class="flex gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Flexbox</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">UI Design</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">My First Landing Page</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+            Penyusunan tata letak fleksibel dengan CSS Flexbox sederhana, kartu informasi produk mini, dan tombol interaksi halus.
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">devices</span>
+<span>Menyesuaikan tampilan responsif di layar ponsel pintar.</span>
+</div>
+</div>
+<!-- Slide 4 -->
+<div class="w-full shrink-0 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-surface-variant font-label-sm text-label-sm">Project 04 / 05</span>
+<div class="flex gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Forms</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Tables</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">HTML &amp; CSS Practice</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+            Implementasi formulir pendaftaran interaktif lengkap dengan input validation, tabel data siswa berkala, dan tombol submit bergaya pastel.
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">edit_note</span>
+<span>Memahami input text, radio buttons, dan styling elemen interaktif.</span>
+</div>
+</div>
+<!-- Slide 5 -->
+<div class="w-full shrink-0 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-surface-variant font-label-sm text-label-sm">Project 05 / 05</span>
+<div class="flex gap-1">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Portfolio</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-[10px] text-primary">Modern Web</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">My Creative Projects</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+            Mini personal space yang menggabungkan cita-cita kedokteran dan estetika web desain kontemporer.
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_back_ios_new</span>
+<span>Menciptakan ruang berekspresi personal secara mandiri.</span>
+</div>
+</div>
+</div>
+<!-- Carousel Navigation & Indicators -->
+<div class="flex items-center justify-between pt-5">
+<div class="flex gap-1.5" id="carousel-dots">
+<span class="w-2.5 h-1.5 rounded-full bg-primary transition-all dot-indicator" data-index="0"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all dot-indicator" data-index="1"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all dot-indicator" data-index="2"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all dot-indicator" data-index="3"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant transition-all dot-indicator" data-index="4"></span>
+</div>
+<div class="flex items-center gap-2">
+<button aria-label="Previous Slide" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-secondary-container transition-colors" id="prev-slide" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button aria-label="Next Slide" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-secondary-container transition-colors" id="next-slide" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Future Screenshot Note Box -->
+<div class="p-3.5 rounded-xl bg-secondary-container/30 flex items-center gap-2.5">
+<span class="text-base">✨</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">
+        Ruang dokumentasi aktif untuk menambahkan tangkapan layar (screenshot) proyek web berikutnya.
+      </p>
+</div>
+</section>
+<!-- CONTACT ME SECTION -->
+<section class="flex flex-col space-y-4" id="contact">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">mail</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Contact Me</h2>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase">Hubungi</span>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm space-y-4 text-center">
+<div class="inline-flex w-12 h-12 rounded-full bg-secondary-container items-center justify-center text-primary mx-auto">
+<span class="material-symbols-outlined text-[24px]">chat_bubble_outline</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Let's connect and share inspiring stories!</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Terbuka untuk diskusi mengenai pembelajaran web dasar, sains, maupun kolaborasi tugas sekolah.
+        </p>
+</div>
+<!-- Contact Rows -->
+<div class="space-y-2.5 text-left pt-2">
+<!-- Email -->
+<a class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-secondary-container/40 transition-colors group" href="mailto:rasya.nova@example.com">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">alternate_email</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Email Address</span>
+<span class="font-body-md text-body-md text-on-surface font-medium text-sm">rasya.nova@example.com</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[18px]">arrow_forward</span>
+</a>
+<!-- Instagram -->
+<a class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low hover:bg-secondary-container/40 transition-colors group" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">photo_camera</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Instagram Feed</span>
+<span class="font-body-md text-body-md text-on-surface font-medium text-sm">@rasyanova</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[18px]">north_east</span>
+</a>
+<!-- Social / LinkedIn -->
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">badge</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Professional Space</span>
+<span class="font-body-md text-body-md text-on-surface font-medium text-sm">Rasya Nova</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-primary uppercase">Student</span>
+</div>
+</div>
+<!-- Direct Message Action Button -->
+<a class="w-full py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider block text-center shadow-md transition-all" href="mailto:rasya.nova@example.com">
+        Let's Connect! ♡
+      </a>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="pt-6 pb-2 text-center flex flex-col items-center space-y-2">
+<!-- Floral Motif Symbol -->
+<div class="flex items-center justify-center gap-2 text-primary-container">
+<span class="w-8 h-px bg-outline-variant"></span>
+<span class="material-symbols-outlined text-[18px]">spa</span>
+<span class="w-8 h-px bg-outline-variant"></span>
+</div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface text-[17px]">
+      Made with love by Rasya Nova ♡
+    </p>
+<p class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">
+      © 2026 Rasya Nova. All Rights Reserved.
+    </p>
+</footer>
+</div>
+<script>
+  (function initCarousel() {
+    let currentIndex = 0;
+    const totalSlides = 5;
+    const track = document.getElementById('project-carousel');
+    const dots = document.querySelectorAll('.dot-indicator');
+    const prevBtn = document.getElementById('prev-slide');
+    const nextBtn = document.getElementById('next-slide');
+
+    function updateCarousel() {
+      if (!track) return;
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      dots.forEach((dot, idx) => {
+        if (idx === currentIndex) {
+          dot.className = 'w-2.5 h-1.5 rounded-full bg-primary transition-all dot-indicator';
+        } else {
+          dot.className = 'w-1.5 h-1.5 rounded-full bg-outline-variant transition-all dot-indicator';
+        }
+      });
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalSlides - 1;
+        updateCarousel();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex < totalSlides - 1) ? currentIndex + 1 : 0;
+        updateCarousel();
+      });
+    }
+
+    dots.forEach((dot) => {
+      dot.addEventListener('click', (e) => {
+        const targetIndex = parseInt(e.target.getAttribute('data-index'), 10);
+        if (!isNaN(targetIndex)) {
+          currentIndex = targetIndex;
+          updateCarousel();
+        }
+      });
+    });
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(85,67,75,0.06)]" data-active-classes="text-primary font-bold"><div class="flex items-center justify-between px-space-xs h-16 max-w-md mx-auto"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[50px] h-11 transition-colors text-primary font-bold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">spa</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center min-w-[50px] h-11 text-on-surface-variant hover:text-primary transition-colors" data-path="about-me" href="#"><span class="material-symbols-outlined text-[22px]">auto_stories</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">About</span></a><a class="flex flex-col items-center justify-center min-w-[50px] h-11 text-on-surface-variant hover:text-primary transition-colors" data-path="my-dreams" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">Dreams</span></a><a class="flex flex-col items-center justify-center min-w-[50px] h-11 text-on-surface-variant hover:text-primary transition-colors" data-path="my-skills" href="#"><span class="material-symbols-outlined text-[22px]">chips</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">Skills</span></a><a class="flex flex-col items-center justify-center min-w-[50px] h-11 text-on-surface-variant hover:text-primary transition-colors" data-path="my-learning" href="#"><span class="material-symbols-outlined text-[22px]">menu_book</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">Journal</span></a><a class="flex flex-col items-center justify-center min-w-[50px] h-11 text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[22px]">mail</span><span class="font-label-sm text-label-sm tracking-normal capitalize mt-0.5">Contact</span></a></div></nav>
+
+</body></html>
